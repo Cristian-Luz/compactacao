@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+#section-central{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column;
+    height: 100vh; /* Define a altura para centralizar na viewport */
+    color: white;
+}
+
+#input-palavra{
+    text-align: center;
+    height: 15px;
+    width: 550px;
+    text-transform: uppercase;
+    padding: 15px;
+    outline: none;
+    border-radius: 15px;
+}
+
+#text-resultado{
+    max-width: 580px;
+    max-height: 500px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+#main-compressao{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
